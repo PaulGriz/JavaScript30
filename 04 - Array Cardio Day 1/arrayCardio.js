@@ -106,7 +106,6 @@ let peopleSortedByLastName = people.sort((a, b) => {
   else return 0
 })
 
-
 // 8. Reduce Exercise
 // Sum up the instances of each of these
 const data = ["car", "car", "truck", "truck", "bike", "walk", "car", "van", "bike", "walk", "car", "van", "car", "truck"];
@@ -115,4 +114,4 @@ let dataSum = data.reduce((acc, curr) => {
   if (acc[curr]) acc[curr] = ++acc[curr]
   else acc[curr] = 1
   return acc
-}, {}) //?
+}, {}) //? 
